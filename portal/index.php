@@ -317,5 +317,5 @@ if( ! ini_get('date.timezone') )
 {
    date_default_timezone_set('America/Los_Angeles');
 } 
-require_once '../_settings.php';
+require_once '_settings.php';
 require_once BASEPATH.'core/CodeIgniter.php';
